@@ -16,6 +16,7 @@ Route::get('think', function () {
 Route::get('','welcome/index/home');
 Route::get('/help','welcome/index/help');
 Route::get('/about','welcome/index/about');
+Route::get('/singnup','user/auth/create');
 
 //Route::get('hello/:name', 'index/hello');
 //Route::get('hello','index/hello');
